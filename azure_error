@@ -1,0 +1,25 @@
+Thu May 09 2013 23:52:41 GMT-0700 (Pacific Daylight Time):
+{ message: '{"message":"Not Found"}',
+  code: 404,
+  __frame: 
+   { name: 'GithubClient_prototype_getHooks__16',
+     line: 397,
+     file: 'C:\\Users\\markcowl\\AppData\\Roaming\\npm\\node_modules\\azure-cli\\lib\\util\\git\\linkedrevisioncontrol._js',
+     prev: 
+      { name: 'GithubClient_prototype_createOrUpdateHook__12',
+        line: 310,
+        file: 'C:\\Users\\markcowl\\AppData\\Roaming\\npm\\node_modules\\azure-cli\\lib\\util\\git\\linkedrevisioncontrol._js',
+        prev: [Object],
+        active: false,
+        offset: 12,
+        col: 14 },
+     active: false,
+     offset: 4,
+     col: 11 },
+  rawStack: [Getter],
+  stack: [Getter] }
+raw stack unavailable
+    at GithubClient_prototype_getHooks__16 (C:\Users\markcowl\AppData\Roaming\npm\node_modules\azure-cli\lib\util\git\linkedrevisioncontrol._js:401:11)
+    at GithubClient_prototype_createOrUpdateHook__12 (C:\Users\markcowl\AppData\Roaming\npm\node_modules\azure-cli\lib\util\git\linkedrevisioncontrol._js:322:14)
+    at GithubClient_prototype_deploy__10 (C:\Users\markcowl\AppData\Roaming\npm\node_modules\azure-cli\lib\util\git\linkedrevisioncontrol._js:260:2)
+    at __3 (C:\Users\markcowl\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\site._js:251:12)
