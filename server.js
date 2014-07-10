@@ -43,7 +43,7 @@ app.configure(function () {
  */
 
 app.get('/', function (req, res) {
-  console.log("Setting up routinger using: " + req + ", " + res);
+  console.log("Setting up routing using: " + req + ", " + res);
   res.render('index', { layout: false });
 });
 
